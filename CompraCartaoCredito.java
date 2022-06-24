@@ -5,4 +5,5 @@ public abstract class CompraCartaoCredito extends CompraCartao{
         super(data, idCompra, valor, conta);
         this.conta = conta.getdiaFatura();
     }
+    
 }

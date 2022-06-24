@@ -2,6 +2,8 @@ package javaaplication;
 
 public class main {
     public static void main (String[] args){
-        Conta Nubank = new Conta("Nubank");
+         
+        Conta nubank = new Conta(10.00,"Nubank",100.00);
+    
     }
 }
